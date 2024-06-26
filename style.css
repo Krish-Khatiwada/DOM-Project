@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+#card {
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+#card img {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+#card h1 {
+    font-size: 30px;
+    margin: 1rem auto;
+}
+
+#card h5 {
+    font-size: 25px;
+    margin: 1rem auto;
+    color: #a90404;
+}
+
+#card button {
+    background-color: hsl(238, 73%, 57%);
+    color: hsl(0, 0%, 96%);
+    border: none;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 7px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#card .remove {
+    background-color: hsl(0, 0%, 83%);
+    color: #000;
+}
+
+#card .add:hover {
+    background-color: hsl(230, 73%, 57%);
+}
+
+#card .remove:hover {
+    background-color: hsl(0, 0%, 83%, 0.7);
+}
+
